@@ -24,3 +24,8 @@ def detect_game(path: Optional[str] = None) -> Optional[Game]:
         if os.path.isfile(os.path.join(path, "{}.exe".format(game.exe))):
             return game
     return None
+
+
+def patched_game_name(game: Game) -> str:
+    """Get the name of the game executable after patching."""
+    return ".{}.exe".format(game.exe)
