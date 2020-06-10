@@ -8,7 +8,7 @@ The various script extender programs (fose, skse, etc.) are great, and for most 
 * python >=3.4
 
 ## Installation
-Just download the file, and run it. You can get it from [Nexus Mods](https://www.nexusmods.com/skyrim/mods/81286), or you can clone the repo:
+Just download the project, and run se-patcher.py. You can get it from [Nexus Mods](https://www.nexusmods.com/skyrim/mods/81286), or you can clone the repo:
 
 ```
 $ git clone https://github.com/SFMason/se-patcher.git
